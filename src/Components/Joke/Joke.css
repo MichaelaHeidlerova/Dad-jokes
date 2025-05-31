@@ -1,0 +1,45 @@
+.container {
+  max-width: 30rem;
+  margin: 5rem auto;
+}
+
+.joke {
+  margin-bottom: 2rem;
+}
+
+.joke__body {
+  display: flex;
+}
+
+.joke__user {
+  flex: 0 0 auto;
+  width: 5rem;
+  height: 5rem;
+  margin-right: 1rem;
+}
+
+.user-avatar {
+  width: 5rem;
+  height: 5rem;
+}
+
+.user-name {
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+.joke__text {
+  background-color: cornflowerblue;
+  color: white;
+  border-radius: 1rem;
+  padding: 1.5rem 2rem;
+  margin: 0;
+  line-height: 150%;
+}
+
+.joke__likes {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 1rem;
+}
